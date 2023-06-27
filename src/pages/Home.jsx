@@ -405,6 +405,8 @@ function Home (){
                   <div className="last">
                   <img src="/src/assets/Logo.png" alt=""/>
                   </div>
+                  <br />
+                  <br />
                     <div className="">
                     <div className="icon">
                     {<AiOutlineTwitter className="mase"/>}
@@ -413,7 +415,7 @@ function Home (){
                       {<AiFillFacebook className="mase"/>}
                     </div>
                     </div>
-                  </div>
+            </div>
           </div>
             </div>
           </div>

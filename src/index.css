@@ -1453,4 +1453,44 @@ footer{
     gap: 15px;
     flex-direction: column;
 }
+#domain {
+    width: 271px;
+    height: auto;
+    padding: 23px 20px;
+    border-radius: 12px;
+    border: 1px solid #005AE2;
+    color: #005AE2;
+    outline: #005AE2;
+    font-size: 9px;
+}
+#alias {
+    width: 270px;
+    height: auto;
+    padding: 18px 20px;
+    border-radius: 12px;
+    border: 1px solid #005AE2;
+    color: #005AE2;
+    outline: #005AE2;
+}
+.trim {
+    text-align: center;
+    width: 277px;
+    padding: 12px 24px;
+    color: #fff;
+    background-color: #005AE2;
+    border-radius: 100px;
+    border: none;
+    outline: #005AE2;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.trin {
+    width: 270px;
+    font-size: 11px;
+    color: #005AE2;
+    padding-top: 30px;
+}
 }

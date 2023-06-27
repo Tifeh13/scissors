@@ -7,7 +7,7 @@ function MyNav() {
   return (
     <Navbar expand="md" className="mb-3" style={{ width: '95%', margin: '0 auto' }}>
   <Container fluid>
-    <Navbar.Brand href="#" className="d-flex justify-content-between text-sm">
+    <Navbar.Brand className="d-flex justify-content-between text-sm">
       <img src="./src/assets/Vector.png" alt="" />&nbsp;
       <img src="./src/assets/Vector 2.png" alt="" />&nbsp;
       <img src="./src/assets/SCISSOR.png" alt="" />
@@ -21,7 +21,7 @@ function MyNav() {
     >
       <Offcanvas.Header closeButton>
         <Offcanvas.Title id="offcanvasNavbarLabel-expand-md">
-        <Navbar.Brand href="#" className="d-flex justify-content-between">
+        <Navbar.Brand className="d-flex justify-content-between">
       <img src="./src/assets/Vector.png" alt="" />&nbsp;
       <img src="./src/assets/Vector 2.png" alt="" />&nbsp;
       <img src="./src/assets/SCISSOR.png" alt="" />

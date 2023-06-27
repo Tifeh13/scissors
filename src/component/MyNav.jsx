@@ -1,6 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import { Navbar, Container, Nav, NavDropdown, Form, Button, Offcanvas } from 'react-bootstrap';
+import  Logo from "../assets/Logo.png"
 
 function MyNav() {
   
@@ -8,9 +9,7 @@ function MyNav() {
     <Navbar expand="md" className="mb-3" style={{ width: '95%', margin: '0 auto' }}>
   <Container fluid>
     <Navbar.Brand className="d-flex justify-content-between text-sm">
-      <img src="./src/assets/Vector.png" alt="" />&nbsp;
-      <img src="./src/assets/Vector 2.png" alt="" />&nbsp;
-      <img src="./src/assets/SCISSOR.png" alt="" />
+      <img src={Logo} alt="" />
     </Navbar.Brand>
 
     <Navbar.Toggle aria-controls="offcanvasNavbar-expand-md" />
@@ -22,9 +21,7 @@ function MyNav() {
       <Offcanvas.Header closeButton>
         <Offcanvas.Title id="offcanvasNavbarLabel-expand-md">
         <Navbar.Brand className="d-flex justify-content-between">
-      <img src="./src/assets/Vector.png" alt="" />&nbsp;
-      <img src="./src/assets/Vector 2.png" alt="" />&nbsp;
-      <img src="./src/assets/SCISSOR.png" alt="" />
+        <img src={Logo} alt="" />
       </Navbar.Brand>
         </Offcanvas.Title>
       </Offcanvas.Header>

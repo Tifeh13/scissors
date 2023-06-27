@@ -309,7 +309,7 @@ function Home (){
               <footer>
                <div className="cont-2">
                <div className="cont">
-                  <img src={Logo}alt=""/>
+                  <img src={Logo} alt=""/>
                   <div className="cont-1">
                    <div className="cont-1-2">
                    {<AiOutlineTwitter className="max"/>}

@@ -1493,4 +1493,22 @@ footer{
     color: #005AE2;
     padding-top: 30px;
 }
+.sub h4 {
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    line-height: 48px;
+}
+.get {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 243px;
+    height: 48px;
+    padding: 12px 24px;
+    outline: #005AE2;
+    background-color: #005AE2;
+    border-radius: 100px;
+    color: #fff;
+}
 }

@@ -13,7 +13,6 @@ import {AiFillLinkedin} from "react-icons/ai"
 import {AiFillFacebook} from "react-icons/ai"
 import circle from "../assets/circle.png"
 import inside from "../assets/in-side-box.png"
-import carpet from "../assets/circle-carpet.png"
 import Logo from "../assets/logo.png"
 
 

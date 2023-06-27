@@ -57,7 +57,7 @@ function Home (){
                 </div>
                 <div className="box2">
                   <div class="bracket-container">
-                      <img src={Logo} alt="" />
+                      <img src={inside} alt="" />
                   </div>
                   <div className="box2-word">
                     <h2>Seamlessly transform your long URLs into concise and shareable links with just few clicks.</h2>

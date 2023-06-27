@@ -11,7 +11,10 @@ import {AiOutlineTwitter} from "react-icons/ai"
 import {AiOutlineInstagram} from "react-icons/ai"
 import {AiFillLinkedin} from "react-icons/ai"
 import {AiFillFacebook} from "react-icons/ai"
-
+import circle from "../assets/circle.png"
+import inside from "../assets/in-side-box.png"
+import carpet from "../assets/circle-carpet.png"
+import Logo from "../assets/logo.png"
 
 
 function Home (){
@@ -55,7 +58,7 @@ function Home (){
                 </div>
                 <div className="box2">
                   <div class="bracket-container">
-                      <img src="/src/assets/Frame 1000001716.png" alt="" />
+                      <img src={inside} alt="" />
                   </div>
                   <div className="box2-word">
                     <h2>Seamlessly transform your long URLs into concise and shareable links with just few clicks.</h2>
@@ -69,7 +72,7 @@ function Home (){
           <div className="section2">
             <div className="section3">
               <div className="circle">
-              <img src="/src/assets/Group 3.png" alt="" />
+              <img src={circle} alt="" />
               </div>
             </div>
           </div>
@@ -307,7 +310,7 @@ function Home (){
               <footer>
                <div className="cont-2">
                <div className="cont">
-                  <img src="/src/assets/Logo.png" alt=""/>
+                  <img src={Logo}alt=""/>
                   <div className="cont-1">
                    <div className="cont-1-2">
                    {<AiOutlineTwitter className="max"/>}
@@ -404,7 +407,7 @@ function Home (){
             <div className="container">
             <div className="">
                   <div className="last">
-                  <img src="/src/assets/Logo.png" alt=""/>
+                  <img src={Logo} alt=""/>
                   </div>
                   <br />
                   <br />

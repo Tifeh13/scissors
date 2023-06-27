@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import { Navbar, Container, Nav, NavDropdown, Form, Button, Offcanvas } from 'react-bootstrap';
-import  Logo from "../assets/Logo.png"
+import Logo from "../assets/Logo.png"
 
 function MyNav() {
   
@@ -21,7 +21,7 @@ function MyNav() {
       <Offcanvas.Header closeButton>
         <Offcanvas.Title id="offcanvasNavbarLabel-expand-md">
         <Navbar.Brand className="d-flex justify-content-between">
-        <img src={Logo} alt="" />
+        <img src={Logo} alt=""/>
       </Navbar.Brand>
         </Offcanvas.Title>
       </Offcanvas.Header>
